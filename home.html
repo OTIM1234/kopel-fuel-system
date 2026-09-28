@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Station Performance Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #003366, #006699);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 70px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+
+    .btn {
+      background-color: #ffcc00;
+      color: #003366;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+      margin: 12px;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #ffaa00;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>KOPEL Petroleum Station Performance</h1>
+    <p class="subtitle">Select a month to view rankings</p>
+
+    <button onclick="window.location.href='august.html'" class="btn">
+      View August Performance
+    </button>
+
+    <button onclick="window.location.href='september.html'" class="btn">
+      View September Performance
+    </button>
+
+    <button onclick="window.location.href='october.html'" class="btn">
+      View October Performance
+    </button>
+
+    <!-- Future months can be added here -->
+    <!-- Example:
+    <button onclick="window.location.href='november.html'" class="btn">
+      View November Performance
+    </button>
+    -->
+
+    <button onclick="window.location.href='about.html'" class="btn">
+      About Developer
+    </button>
+  </div>
+
+  <footer>
+    © 2026 KOPEL Petroleum Company. All rights reserved.
+  </footer>
+</body>
+</html>
